@@ -9,7 +9,6 @@ uri = config["MONGODB_CONN"]["conn_str"]
 print(uri)
 
 # uri = 'mongodb+srv://' + con_str + '@cluster0.dnzuy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
-# uri = 'mongodb+srv://new_user:12345@cluster0.dnzuy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
 client = MongoClient(uri)
 db = client["person_records"]
